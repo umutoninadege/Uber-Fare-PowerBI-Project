@@ -7,7 +7,7 @@ Power BI Data Analysis Assignment This repository contains my Power BI project f
 
 <img width="1069" height="477" alt="Image" src="https://github.com/user-attachments/assets/c0ce83f7-a4a3-429f-9b8c-d9254eab64fb" />
 <img width="1366" height="759" alt="Image" src="https://github.com/user-attachments/assets/4ba2e214-f80a-4769-a3ef-07c8186ba06a" />
-
+#
 .Handling Missing value
 <img width="428" height="82" alt="Image" src="https://github.com/user-attachments/assets/cffc7c3b-c823-41a2-9c1c-810e71d75aec" />
 
@@ -31,6 +31,23 @@ After cleaning and feature engineering, the processed dataset is exported to a n
 #Power BI Analysis
 .Imported dataset into Power BI Desktop
 <img width="904" height="658" alt="Image" src="https://github.com/user-attachments/assets/f8a77e70-d5f0-4f10-8b37-ebe71b8dd180" />
+
+#Map
+.Latitude and Longutude
+<img width="749" height="427" alt="Image" src="https://github.com/user-attachments/assets/3764fcea-9598-4a99-b948-67278b73cfd5" />
+.Passenger By Month
+<img width="749" height="415" alt="Image" src="https://github.com/user-attachments/assets/c1481211-bf19-4e06-99f0-39c4a3352c89" />
+.Passenger by Pickup date
+<img width="755" height="427" alt="Image" src="https://github.com/user-attachments/assets/09b34c9c-65e8-4606-818d-e0b712d3f384" />
+.Fare Amount over Time
+<img width="747" height="416" alt="Image" src="https://github.com/user-attachments/assets/3705eb26-97fe-475c-92b0-9e2d89cf5782" />
+.Average Fare by TimePeriod
+<img width="757" height="428" alt="Image" src="https://github.com/user-attachments/assets/11c47020-182a-49c8-b89a-fced0b31db92" />
+.Average Fare By Year
+<img width="752" height="425" alt="Image" src="https://github.com/user-attachments/assets/5c8586cc-7560-4a13-a617-15bd3b5e3852" />
+
+Access the cleaned data: [https://drive.google.com/file/d/1aByobIszoKi-wipnMD3N5x5uDff20og5/view?usp=sharing]
+
 
 
 
