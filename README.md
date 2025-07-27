@@ -11,43 +11,18 @@ Power BI Data Analysis Assignment This repository contains my Power BI project f
 .Handling Missing value
 <img width="428" height="82" alt="Image" src="https://github.com/user-attachments/assets/cffc7c3b-c823-41a2-9c1c-810e71d75aec" />
 <img width="428" height="82" alt="Image" src="https://github.com/user-attachments/assets/cffc7c3b-c823-41a2-9c1c-810e71d75aec" />
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+.Fare Distribution with Line chart and Bar chart 
+<img width="967" height="594" alt="Image" src="https://github.com/user-attachments/assets/e35b1f8e-889c-4874-90a9-10f8cfac5e8f" />
+.Bar chart
+Average Fare by Day of the week
+<img width="1241" height="703" alt="Image" src="https://github.com/user-attachments/assets/a3fa01b9-dfbc-42e9-86b7-3d66ff41985d" />
 
-# ✅ Load the cleaned dataset
-uber_df = pd.read_csv("C:/Users/nadege/Documents/uber_cleaned.csv")
+.Line Chart
+Average Fare amount by hour
+<img width="1358" height="755" alt="Image" src="https://github.com/user-attachments/assets/e9402b0e-e206-489f-b55c-5e1eca395a69" />
+ the Uber trip data by different time granularities (hour, day of the week, day) to understand the distribution of rides and identify patterns in demand. This is essential for understanding peak hours and daily/weekly trends
+<img width="733" height="394" alt="Image" src="https://github.com/user-attachments/assets/8964ef73-790b-467f-9464-52e974c14210" />
 
-# Convert pickup_datetime to datetime and remove timezone info
-uber_df['pickup_datetime'] = pd.to_datetime(uber_df['pickup_datetime'], utc=True).dt.tz_localize(None)
-
-# ✅ Extract full datetime features
-uber_df['hour'] = uber_df['pickup_datetime'].dt.hour
-uber_df['day'] = uber_df['pickup_datetime'].dt.day
-uber_df['month'] = uber_df['pickup_datetime'].dt.month
-uber_df['weekday'] = uber_df['pickup_datetime'].dt.day_name()  # Monday, Tuesday, ...
-
-# ✅ Filter out unrealistic fare amounts
-uber_df = uber_df[(uber_df['fare_amount'] > 0) & (uber_df['fare_amount'] < 200)]
-
-# 📊 Plot average fare by hour
-plt.figure(figsize=(10, 6))
-sns.lineplot(x='hour', y='fare_amount', data=uber_df, estimator='mean', ci=None, marker='o')
-plt.title('Average Fare Amount by Hour')
-plt.xlabel('Hour of Day')
-plt.ylabel('Average Fare ($)')
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-
-# 📊 Plot average fare by weekday
-plt.figure(figsize=(10, 6))
-sns.barplot(x='weekday', y='fare_amount', data=uber_df, estimator='mean', ci=None, palette='coolwarm')
-plt.title('Average Fare by Day of the Week')
-plt.xlabel('Weekday')
-plt.ylabel('Average Fare ($)')
-plt.tight_layout()
-plt.show()
 
 
 
