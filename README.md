@@ -16,7 +16,7 @@ The main objective of this project is to:
 
 The original dataset is an Uber trip record CSV file.
 
-**Access the raw dataset here:** [Uber Original Data (CSV) - *Add your Google Drive link to the raw data here if you have one*]
+**Access the raw dataset here:** [Uber Original Data (CSV) 
 
 ---
 
@@ -143,27 +143,6 @@ In summary, this analysis provides valuable insights into Uber's service demand 
 * Power BI Desktop
 * Google Drive (for data storage)
 
-## How to Use/Run the Project
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/umutoninadege/Uber-Fare-PowerBI-Project.git](https://github.com/umutoninadege/Uber-Fare-PowerBI-Project.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd Uber-Fare-PowerBI-Project
-    ```
-3.  **Install necessary Python libraries:**
-    ```bash
-    pip install pandas
-    ```
-4.  **Download the `uber.csv` dataset** from the provided Google Drive link and place it in the specified path within the Python script (`path_to_data` variable).
-5.  **Run the Python script** (`your_script_name.py`) to perform data cleaning and feature engineering. This will generate the `uber_cleaned.csv` file.
-6.  **Open the Power BI Desktop file** (`your_power_bi_file.pbix`) and ensure it's linked to the `uber_cleaned.csv` file.
-7.  **Explore the interactive dashboards** and visualizations.
 
----
-
-## Author
-
-[Your Name or GitHub Username]
+[umutoninadege]
