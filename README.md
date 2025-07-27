@@ -15,6 +15,7 @@ The main objective of this project is to:
 ## Data Source
 
 The original dataset is an Uber trip record CSV file.
+**Access the cleaned dataset here:** [Uber Cleaned Data (CSV)](https://drive.google.com/file/d/1aByobIszoKi-wipnMD3N5x5uDff20og5/view?usp=sharing)
 
 
 
@@ -118,7 +119,7 @@ This bar chart compares the average fare based on the engineered 'TimePeriod' fe
 
 ![Average Fare by TimePeriod](https://github.com/user-attachments/assets/11c47020-182a-49c8-b89a-fced0b31db92)
 
-**Conclusion:** A significant portion of the total fare amount is generated during **'Off-Peak' hours**, which could be due to longer duration of off-peak periods or consistent demand outside peak times. (Note: If your Power BI graph only shows 'Off-Peak', this conclusion accounts for that. If 'Peak' is also shown, adjust accordingly.)
+**Conclusion:** A significant portion of the total fare amount is generated during **'Off-Peak' hours**, which could be due to longer duration of off-peak periods or consistent demand outside peak times. 
 
 ---
 
