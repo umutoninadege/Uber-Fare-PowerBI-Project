@@ -16,7 +16,7 @@ The main objective of this project is to:
 
 The original dataset is an Uber trip record CSV file.
 
-**Access the raw dataset here:** [Uber Original Data (CSV) 
+
 
 ---
 
