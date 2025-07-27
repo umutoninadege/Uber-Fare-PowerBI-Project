@@ -22,6 +22,8 @@ Average Fare amount by hour
 <img width="1358" height="755" alt="Image" src="https://github.com/user-attachments/assets/e9402b0e-e206-489f-b55c-5e1eca395a69" />
  the Uber trip data by different time granularities (hour, day of the week, day) to understand the distribution of rides and identify patterns in demand. This is essential for understanding peak hours and daily/weekly trends
 <img width="733" height="394" alt="Image" src="https://github.com/user-attachments/assets/8964ef73-790b-467f-9464-52e974c14210" />
+step removes any rows that contain missing (NaN) values from the dataset, ensuring that subsequent analyses are performed on complete records. The script then prints the new dimensions of the dataset after this cleaning operation.
+<img width="928" height="119" alt="Image" src="https://github.com/user-attachments/assets/a04b8ed4-04d7-44d1-a620-ff5895f2a9cf" />
 
 
 
