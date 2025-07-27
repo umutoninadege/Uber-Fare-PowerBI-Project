@@ -3,4 +3,4 @@ Power BI Data Analysis Assignment This repository contains my Power BI project f
 
 
 # Data Loading and Exploration Script
-![Screenshot of Python script for Uber data loading and exploration](pppp.png)
+<img width="907" height="552" alt="Image" src="https://github.com/user-attachments/assets/3a82d8d5-1533-4ba9-9e01-f4e61cb40f84" />
