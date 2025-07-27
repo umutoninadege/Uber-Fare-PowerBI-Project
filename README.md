@@ -10,6 +10,7 @@ Power BI Data Analysis Assignment This repository contains my Power BI project f
 
 .Handling Missing value
 <img width="428" height="82" alt="Image" src="https://github.com/user-attachments/assets/cffc7c3b-c823-41a2-9c1c-810e71d75aec" />
+
 <img width="428" height="82" alt="Image" src="https://github.com/user-attachments/assets/cffc7c3b-c823-41a2-9c1c-810e71d75aec" />
 .Fare Distribution with Line chart and Bar chart 
 <img width="967" height="594" alt="Image" src="https://github.com/user-attachments/assets/e35b1f8e-889c-4874-90a9-10f8cfac5e8f" />
@@ -24,6 +25,15 @@ Average Fare amount by hour
 <img width="733" height="394" alt="Image" src="https://github.com/user-attachments/assets/8964ef73-790b-467f-9464-52e974c14210" />
 step removes any rows that contain missing (NaN) values from the dataset, ensuring that subsequent analyses are performed on complete records. The script then prints the new dimensions of the dataset after this cleaning operation.
 <img width="928" height="119" alt="Image" src="https://github.com/user-attachments/assets/a04b8ed4-04d7-44d1-a620-ff5895f2a9cf" />
+
+After cleaning and feature engineering, the processed dataset is exported to a new CSV file (`uber_cleaned.csv`). This file is now ready for further analysis, visualization in tools like Power BI, or use in machine learning models
+<img width="494" height="123" alt="Image" src="https://github.com/user-attachments/assets/6f1dfd13-0451-4139-affc-2f2dd856a766" />
+#Power BI Analysis
+.Imported dataset into Power BI Desktop
+<img width="904" height="658" alt="Image" src="https://github.com/user-attachments/assets/f8a77e70-d5f0-4f10-8b37-ebe71b8dd180" />
+
+
+
 
 
 
